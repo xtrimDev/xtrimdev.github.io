@@ -71,6 +71,7 @@ body {
     flex-direction: row;
     width: 100vw;
     gap: 2rem;
+    overflow-x: hidden;
 }
 
 .app .clearfix {
@@ -667,6 +668,7 @@ progress[value]::-moz-progress-bar {
     flex-direction: row;
     align-items: center;
     font-family: Overpass;
+    align-items: center;
 }
 
 .app .container .content .box .expose .secondary .list .divider {
@@ -682,15 +684,23 @@ progress[value]::-moz-progress-bar {
     color: #6C757D !important;
 }
 
+.app .container .content .box .expose .secondary .list .item .icon {
+    margin-right: 1rem;
+}
+
+.app .container .content .box .expose .secondary .list .item .text {
+    margin-right: 1rem;
+}
+
 .app .container .content .box .expose .secondary .list .item .icon img {
     height: 40px;
     width: 40px;
-    margin-right: 1rem;
 }
 
 .app .container .content .box .expose .secondary .list .item .text p {
     cursor: pointer;
-    line-height: 1.4rem
+    line-height: 1.4rem;
+    white-space: nowrap;
 }
 
 .app .container .content .box .expose .secondary .list .item .text .title {
@@ -705,10 +715,8 @@ progress[value]::-moz-progress-bar {
 .app .container .content .box .expose .secondary .list .item .arrow {
     cursor: pointer;
     color: var(--main-color);
-    margin-left: 0.5rem;
     transform: rotate(-90deg);
 }
-
 
 @media screen and (max-width : 1750px) {
     .app .container .content .box .expose {
@@ -721,14 +729,6 @@ progress[value]::-moz-progress-bar {
         padding: 2rem;
     }
 
-    .app .container .content .box .expose .secondary .list .item .arrow {
-        margin-left: 4%;
-    }
-
-    .app .container .content .box .expose .secondary .list .item .arrow {
-        margin-left: 30%;
-    }
-
     .app .container .content .box .expose .secondary {
         align-self: center;
     }
@@ -737,10 +737,6 @@ progress[value]::-moz-progress-bar {
 @media screen and (max-width : 1450px) {
     .app .container .content .box .heading::after {
         width: 5rem;
-    }
-
-    .app .container .content .box .expose .secondary .list .item .arrow {
-        margin-left: 20%;
     }
 }
 
@@ -767,10 +763,6 @@ progress[value]::-moz-progress-bar {
     .app .container .content .box .dropper {
         grid-template-columns: auto;
     }
-
-    .app .container .content .box .expose .secondary .list .item .arrow {
-        margin-left: 40%;
-    }
 }
 
 @media screen and (max-width : 1360px) {
@@ -794,10 +786,6 @@ progress[value]::-moz-progress-bar {
 
     .app .container .navbar .links {
         float: inherit;
-    }
-
-    .app .container .content .box .expose .secondary .list .item .arrow {
-        margin-left: 30%;
     }
 }
 
@@ -890,32 +878,32 @@ progress[value]::-moz-progress-bar {
 }
 
 @media screen and (max-width: 680px) {
-    .app {
-        padding: 0 1rem;
-    }
-
     .app .container .content {
         padding: 2rem;
     }
 }
 
 @media screen and (max-width: 580px) {
-    .app .container .content .box .expose .secondary .list .item .arrow {
-        margin-left: 20%;
+    .app {
+        padding: 0;
     }
 }
 
 @media screen and (max-width: 560px) {
     .app .container .content .box .expose .primary .card .img {
-        height: 10rem;
+        height: 13rem;
     }
     .app .container .content .box .expose .primary .card .detail {
         margin: 0.5rem 1rem 1rem;
     }
+
+    .app .container .content {
+        padding: 1rem;
+    }
 }
 
-@media screen and (max-width: 520px) {
-    .app .container .content .box .expose .secondary .list .item .arrow {
-        margin-left: 5%;
+@media screen and (max-width: 430px) {
+    .app .container .content .box .expose .primary .card .img {
+        height: 10rem;
     }
 }
