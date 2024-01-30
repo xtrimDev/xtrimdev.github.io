@@ -417,7 +417,6 @@ body {
     border-radius: 10px;
     padding: 2rem 3rem;
     display: none;
-    margin-bottom: 1.5rem;
 }
 
 .app .container .content .box:not(:last-child) {
@@ -810,6 +809,10 @@ progress[value]::-moz-progress-bar {
     .app .container .content .box .expose .secondary {
         width: 100%;
     }
+
+    .app .container .content .box .expose {
+        gap: 2rem;
+    }
 }
 
 @media screen and (max-width : 1020px) {
@@ -827,7 +830,6 @@ progress[value]::-moz-progress-bar {
     .app .profile-box {
         position: relative;
         width: 100%;
-        background-color: var(--primary-bg);
         border-radius: 10px;
     }
 
@@ -855,16 +857,24 @@ progress[value]::-moz-progress-bar {
     .app .container .content .box .expose .secondary {
         width: 55%;
     }
+
+    .app .container .content .box .expose .primary .card .img {
+        height: 10rem;
+    }
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 880px) {
     .app .container .content .box .expose .primary {
         grid-template-columns: auto;
-        width: 90%;
+        width: 80%;
     }
 
     .app .container .content .box .expose .secondary {
-        width: 90%;
+        width: 80%;
+    }
+
+    .app .container .content .box .expose .primary .card .img {
+        height: 13rem;
     }
 }
 
@@ -879,9 +889,28 @@ progress[value]::-moz-progress-bar {
     }
 }
 
+@media screen and (max-width: 680px) {
+    .app {
+        padding: 0 1rem;
+    }
+
+    .app .container .content {
+        padding: 2rem;
+    }
+}
+
 @media screen and (max-width: 580px) {
     .app .container .content .box .expose .secondary .list .item .arrow {
         margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .app .container .content .box .expose .primary .card .img {
+        height: 10rem;
+    }
+    .app .container .content .box .expose .primary .card .detail {
+        margin: 0.5rem 1rem 1rem;
     }
 }
 
