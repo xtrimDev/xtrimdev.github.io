@@ -450,6 +450,8 @@ body {
     display: block;
     font-family: Overpass;
     color: #6C757D;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .app .container .content .box .education {
@@ -643,6 +645,12 @@ progress[value]::-moz-progress-bar {
     font-family: Overpass;
     color: #6C757D;
     font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
 }
 
 .app .container .content .box .expose .secondary {
@@ -690,6 +698,8 @@ progress[value]::-moz-progress-bar {
 
 .app .container .content .box .expose .secondary .list .item .text {
     margin-right: 1rem;
+    width: 100%;
+    overflow: hidden;
 }
 
 .app .container .content .box .expose .secondary .list .item .icon img {
