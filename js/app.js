@@ -8,8 +8,6 @@ function activeTab () {
     }
 }
 
-document.getElementById(activeTab()).style.display = 'block';
-
 for (let i = 0; i < tab.length; i++) {
     tab[i].onclick = () => {
         if (!tab[i].classList.contains('active')) {
@@ -71,3 +69,5 @@ function DownloadResume() {
     };
     req.send();
 };
+
+PDFObject.embed("../pdf/SameerSinghBhandariResume.pdf", "#pdfResume");

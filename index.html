@@ -5,9 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sameer singh bhandari | portfolio</title>
     <link rel="stylesheet" href="./css/app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://unpkg.com/pdfobject@2.2.12/pdfobject.min.js" defer></script>
     <script src="./js/app.js" defer></script>
+    <script>
+        function hideLoader(){
+            setTimeout(() => {
+                $('.section-loader').fadeOut('fast');
+                document.getElementsByClassName("app")[0].style.display = "flex";
+                document.getElementById(activeTab()).style.display = 'block';
+            }, 500)
+        }
+        </script>
 </head>
-<body>
+<body onload="hideLoader()">
+    <div class="section-loader">
+        <div class="loader">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
     <div class="app">
         <div class="clearfix"></div>
         <div class="profile-box">
@@ -254,14 +271,14 @@
                         <div class="primary">
                             <div class="card">
                                 <div class="img">
-                                    <img src="./images/project/Amazon.jpg" alt="project">
+                                    <img src="./images/project/restaurant.png" alt="project">
                                     <div class="action">
                                         <button type="button" class="code" title="view project"><i class="fa fa-eye"></i></button>
                                         <button type="button" class="code" title="view code"><i class="fa fa-code"></i></button>
                                     </div>
                                 </div>
                                 <div class="detail">
-                                    <p class="title">Amazon Clone</p>
+                                    <p class="title">A restaurant Website</p>
                                     <p class="used">Html, CSS, JavaScript, TypeScript, Node.js, Mongo DB</p>
                                 </div>
                             </div>
@@ -280,19 +297,20 @@
                             </div>
                             <div class="card">
                                 <div class="img">
-                                    <img src="./images/project/Instagram.jpg" alt="project">
+                                    <img src="./images/project/sharechat.png" alt="project">
                                     <div class="action">
-                                        <button type="button" class="code" title="view project"><i class="fa fa-eye"></i></button>
-                                        <button type="button" class="code" title="view code"><i class="fa fa-code"></i></button>
+                                        <button type="button" class="code" title="view project" onclick="goto('http://sharechat.000.pe/?referral=true')"><i class="fa fa-eye"></i></button>
+                                        <button type="button" class="code" title="view code" onclick="goto('https://github.com/sameerbhandari512/Sharechat')"><i class="fa fa-code"></i></button>
                                     </div>
                                 </div>
                                 <div class="detail">
-                                    <p class="title">Instagram Clone</p>
-                                    <p class="used">Html, CSS, JavaScript, TypeScript, Node.js, Mongo DB</p>
+                                    <p class="title">Sharechat</p>
+                                    <p class="used">Html, CSS, JavaScript, PHP, mySql</p>
                                 </div>
-                            </div><div class="card">
+                            </div>
+                            <div class="card">
                                 <div class="img">
-                                    <img src="./images/project/Notes Solution.jpg" alt="project">
+                                    <img src="./images/project/Notes.png" alt="project">
                                     <div class="action">
                                         <button type="button" class="code" title="view project"><i class="fa fa-eye"></i></button>
                                         <button type="button" class="code" title="view code"><i class="fa fa-code"></i></button>
@@ -319,22 +337,15 @@
                                         <i class="fa fa-chevron-down"></i>
                                     </div>
                                 </div>
-                                <div class="divider"></div>
-                                <div class="item" onclick="goto('http://sharechat.000.pe')">
-                                    <div class="icon">
-                                        <img src="./images/project/user.png" alt="error">
-                                    </div>
-                                    <div class="text">
-                                        <p class="title">ShareChat</p>
-                                        <p class="used">Html, Css, JS, PHP, MySql</p>
-                                    </div>
-                                    <div class="arrow">
-                                        <i class="fa fa-chevron-down"></i>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="content" id="resume">
+                <div class="box">
+                    <div class="sticky"><h1 class="heading">Resume</h1></div>
+                    <div class="pdf" id="pdfResume"></div>
                 </div>
             </div>
         </div>
