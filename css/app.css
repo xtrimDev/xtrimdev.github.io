@@ -25,7 +25,6 @@
         --primary-bg: #1C1B23;
         --main-color: #FFFFFF;
         --primary-color: #9BA6B1;    
-        --education-icon: url('../images/nav/light/text-book_7505173.png');   
     }
 }
 
@@ -34,7 +33,6 @@
     --primary-bg: #1C1B23;
     --main-color: #FFFFFF;
     --primary-color: #9BA6B1;    
-    --education-icon: url('../images/nav/light/text-book_7505173.png');   
 }
 
 
@@ -46,7 +44,6 @@
         --primary-bg: #FFFFFF;
         --main-color: #000000;
         --primary-color: #000000;    
-        --education-icon: url('../images/nav/dark/text-book_7505173.png');   
     }
 }
 
@@ -55,7 +52,6 @@
     --primary-bg: #FFFFFF;
     --main-color: #000000;
     --primary-color: #000000;    
-    --education-icon: url('../images/nav/dark/text-book_7505173.png');   
 }
 
 
@@ -550,7 +546,7 @@ body {
 }
 
 .app .container .content .box .education .icon {
-    background-image: var(--education-icon);
+    background-image: url('../images/utility/text-book_7505173.png');
     background-size: 50px;
     background-repeat: no-repeat;
     height: 50px;
@@ -563,7 +559,7 @@ body {
 }
 
 .app .container .content .box .education .details .title {
-    color: var(--primary-color);
+    color: #6C757D;
     font-family: Redshift;
 }
 
@@ -575,7 +571,7 @@ body {
 
 .app .container .content .box .education .details .date span {
     font-family: Overpass;
-    color: var(--primary-color);
+    color: #6C757D;
 }
 
 .app .container .content .box .dropper {
