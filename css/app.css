@@ -749,6 +749,7 @@ progress[value]::-moz-progress-bar {
 .app .container .content .box .expose .secondary .list {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .app .container .content .box .expose .secondary .list .item {
