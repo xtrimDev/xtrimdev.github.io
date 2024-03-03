@@ -660,6 +660,7 @@ progress[value]::-moz-progress-bar {
     grid-template-columns: auto auto;
     align-items: flex-start;
     gap: 2rem;
+    height: 100%;
 }
 
 .app .container .content .box .expose .primary .card {
