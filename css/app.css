@@ -725,6 +725,10 @@ body {
         padding-top: 0;
     }
 
+    .app .clearfix {
+        display: none;
+    }
+
     .app .profile-box {
         position: relative;
         margin-bottom: 2rem;
@@ -746,12 +750,12 @@ body {
         grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
     }
 
-    .app .container .content .box .pdfobject-container {
+    .app .container #resume {
         display: none;
     }
 }
 
-@media screen and (max-width : calc(560px)) {
+@media screen and (max-width : 560px) {
     .app {
         padding-left: 0;
         padding-right: 0;
@@ -778,6 +782,13 @@ body {
         width: 100%;
     }
 }
+
+@media screen and (max-width : 470px) {
+    .app .container .content {
+        padding: 2rem 1rem;
+    }
+}
+
 
 /** ================= **/
 .divider {
