@@ -214,6 +214,12 @@ body {
     color: #03A9F4;
 }
 
+.app .profile-box .profile .contact .social .box a.fa-telegram {
+    color: #0088cc;
+    background-color: white;
+    border-radius: 50%;
+}
+
 .app .profile-box .profile .contact .card {
     display: flex;
     flex-direction: column;
