@@ -206,12 +206,12 @@ body {
     color: var(--main-color);
 }
 
-.app .profile-box .profile .contact .social .box a.fa-linkedin {
+.app .profile-box .profile .contact .social .box a.fa-linkedin-in {
     color: #0077B5
 }
 
-.app .profile-box .profile .contact .social .box a.fa-twitter {
-    color: #03A9F4;
+.app .profile-box .profile .contact .social .box a.fa-x-twitter {
+    color: #ffffffbb;
 }
 
 .app .profile-box .profile .contact .social .box a.fa-telegram {
@@ -239,15 +239,15 @@ body {
     align-items: center;
 }
 
-.app .profile-box .profile .contact .card .detail .icon i.fa-mobile {
-    font-size: 2.5rem;
+.app .profile-box .profile .contact .card .detail .icon i.fa-mobile-screen {
+    font-size: 2rem;
     background: radial-gradient(circle at 30% 107%, #01A0FA 0%, #0FBDD9 20%, #1EDCB4 50%,#29F39A 80%);
     background-clip: text;
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
 }
 
-.app .profile-box .profile .contact .card .detail .icon i.fa-envelope-o {
+.app .profile-box .profile .contact .card .detail .icon i.fa-envelope {
     font-size: 1.6rem;
     background: radial-gradient(circle at 30% 107%, #37329A 0%, #F503C9 80%);
     background-clip: text;
@@ -255,8 +255,8 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.app .profile-box .profile .contact .card .detail .icon i.fa-map-marker {
-    font-size: 2rem;
+.app .profile-box .profile .contact .card .detail .icon i.fa-location-dot {
+    font-size: 1.8rem;
     background: radial-gradient(circle at 30% 107%, #7F55E2 0%, #B38AF7 80%);
     background-clip: text;
     -webkit-background-clip: text; 
