@@ -493,10 +493,25 @@ body {
     gap: 4rem;
 }
 
+.mb-10 {
+    margin-bottom: 1.5rem;;
+}
+
 .app .container .content .box .dropper .skill .title {
     font-family: Overpass;
     font-size: 20px;
     color: var(--main-color);
+    text-transform: uppercase;
+}
+
+.app .container .content .box .dropper .skill .indent {
+    margin-left: 20px;
+}
+
+.app .container .content .box .dropper .skill .subtitle {
+    font-family: Overpass;
+    font-size: 20px;
+    color: #ffffff7d;
     text-transform: uppercase;
 }
 
@@ -722,6 +737,16 @@ body {
     height: 30rem; 
     border: 1rem solid rgba(0,0,0,.1); 
     width: 100%;
+}
+
+.app .container .content .box .pdfBox {
+    max-width: 100%; width: 640px;
+    aspect-ratio: 1.77/1;
+}
+
+.app .container .content .box .videoBox {
+    max-width: 100%; width: 640px;
+    aspect-ratio: 1.77/1;
 }
 
 /** =======Style for responsive======= **/
