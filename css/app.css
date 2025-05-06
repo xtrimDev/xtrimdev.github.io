@@ -742,6 +742,9 @@ body {
 .app .container .content .box .pdfBox {
     max-width: 100%; width: 640px;
     aspect-ratio: 1.77/1;
+} 
+.app .container .content .box .imgBox{
+    max-width: 100%; width: 640px;
 }
 
 .app .container .content .box .videoBox {
