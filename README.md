@@ -9,9 +9,9 @@
   
 - 🌱 I’m currently learning **Android Development**
   
-- 👨‍💻 All of my projects are available at <b>[https://xtrimdev.github.io/](https://xtrimdev.github.io/)</b>
+- 👨‍💻 All of my publically avalible projects are available at <b>[https://xtrimdev.github.io/](https://xtrimdev.github.io/)</b>
   
-- 💬 Ask me about **Web Development, Android Development, Machine learning**
+- 💬 Ask me about **Web Development, Machine learning, Blockchain**
   
 - 📫 How to reach me **xtrim.dev@gmail.com**
 
