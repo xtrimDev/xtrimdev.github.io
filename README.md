@@ -25,10 +25,7 @@
 ###
 
 <p align="left">
-  <a href="https://twitter.com/xtrim_dev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="xtrim_dev" height="30" width="40" /></a>
   <a href="https://linkedin.com/in/xtrimdev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="xtrimdev" height="30" width="40" /></a>
-  <a href="https://instagram.com/xtrim.dev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="xtrim.dev" height="30" width="40" /></a>
-  <a href="https://t.me/xtrimDev" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" alt="xtrimDev" height="30" width="40" /></a>
 </p>
 
 

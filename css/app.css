@@ -26,6 +26,9 @@
     --primary-color: #9BA6B1;    
 }
 
+.transparent {
+    background-color: transparent !important;
+}
 /* =========Light Colors=========== */
 @media (prefers-color-scheme: light) {
     :root:not(.light):not(.dark) {
