@@ -20,6 +20,8 @@
 
 ###
 
+<img src="https://github.com/xtrimDev/xtrimDev/blob/main/sp-stance.gif?raw=true" align="right" />
+
 <h3 align="left">Connect with me:</h3>
 
 ###
